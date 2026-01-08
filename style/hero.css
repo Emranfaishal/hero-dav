@@ -101,5 +101,33 @@ nav li a {
     margin: 0 auto;
     text-align: center;
     background-color: #FFF8F3;
-    padding: 131px 157px;
+    padding: 110px 157px;
+}
+
+.sectino-header h2 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.sectino-header .p {
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.about-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info .info-card p {
+    color: #757575;
+    margin-bottom: 10px;
+}
+
+.about-info .info-card h4 {
+    font-size: 20px;
+    font-weight: bold;
 }
