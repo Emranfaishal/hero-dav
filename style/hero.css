@@ -12,7 +12,7 @@
 header {
     background-color: #FFF8F3;
     background-image: url("../images/developer.png"), url("../images/header_bg.png");
-    background-position: top left, bottom right;
+    background-position: 23px 28px, bottom right;
     background-repeat: no-repeat;
 }
 
@@ -223,8 +223,55 @@ nav li a {
     width: 511px;
     margin-right: 47px;
 }
-.cv{
+
+.cv {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+footer {
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0px;
+}
+
+.footer-contine {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+}
+
+.sosele {
+    max-width: 562px;
+}
+
+.footer-contine h2 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #181818;
+}
+
+.footer-contine p {
+    font-size: 16px;
+    color: #757575;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-contine .sosele .icons a {
+    margin-right: 10px;
+}
+
+.footer-contine form input[type="text"],
+.footer-contine form textarea {
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+
 }
